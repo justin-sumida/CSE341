@@ -12,7 +12,7 @@
 <body>
     <h1>The Recessed Light Guy</h1>
     <hr><br>
-    <h2>Reviews:</h2><br>
+    <h2>Reviews:</h2>
     <p> <?php
        $statement = $db->prepare("SELECT review, contentReview, name FROM userReview");
        $statement->execute();
@@ -28,5 +28,6 @@
        
         ?>
     </p>
+
 </body>
 </html>
