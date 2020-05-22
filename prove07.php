@@ -28,11 +28,12 @@
        
         ?>
     </p>
+    <h2>Send A Message:</h2>
     <form id="contact">
-       Name: <input type="text" name="name">
-       Email: <input type="text" name="email">
+       Name: <input type="text" name="name"><br>
+       Email: <input type="text" name="email"><br>
        Message: <textarea rows="5" cols="80" name="message">
-                </textarea>
+                </textarea><br>
        <input type="submit" value="Send Message">
     </form>
 </body>
