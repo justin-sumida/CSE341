@@ -28,6 +28,12 @@
        
         ?>
     </p>
-
+    <form id="contact">
+       Name: <input type="text" name="name">
+       Email: <input type="text" name="email">
+       Message: <textarea rows="5" cols="80" name="message">
+                </textarea>
+       <input type="submit" value="Send Message">
+    </form>
 </body>
 </html>
