@@ -23,7 +23,7 @@
            $content = $row['contentReview'];
            $name = $row['name'];
        
-           echo "<p><strong>$name $review</strong><br>$content<p>";
+           echo "<p><strong>$name $review</strong> - \"$content\"<p>";
        }
        
         ?>

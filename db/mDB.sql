@@ -19,7 +19,7 @@ CREATE TABLE last50Contacts(
 
 INSERT INTO userReview(review, contentReview, name) VALUES ('5', 'Kirk did a fantastic job on our lights, professional and on time. Left it clean too.', 'Jane Doe');
 INSERT INTO userReview(review, contentReview, name) VALUES ('5', 'Kirk came early to the job, got out within 3 hours, and did a great job!', 'John Doe');
-INSERT INTO userReview(review, contentReview, name) VALUES ('4.5', 'Very professional guy, one of the best in the business.', 'Jilly Joel');
+INSERT INTO userReview(review, contentReview, name) VALUES ('4', 'Very professional guy, one of the best in the business.', 'Jilly Joel');
 INSERT INTO userReview(review, contentReview, name) VALUES ('5', 'Left our house cleaner than it was! Great.', 'LaFonda');
 
 INSERT INTO contact(name, email, contact) VALUES('Billy Bob', 'bill@gmail.com', 'Hi, I was wondering how much it would be to...');
