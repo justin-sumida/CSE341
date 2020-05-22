@@ -32,7 +32,7 @@
     <form id="contact">
        Name: <input type="text" name="name"><br>
        Email: <input type="text" name="email"><br>
-       Message: <textarea rows="5" cols="80" name="message">
+       Message:<br> <textarea rows="5" cols="80" name="message">
                 </textarea><br>
        <input type="submit" value="Send Message">
     </form>
