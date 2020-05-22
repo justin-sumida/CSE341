@@ -14,13 +14,13 @@
     <hr><br>
     <h2>Reviews:</h2>
     <p> <?php
-       $statement = $db->prepare("SELECT review, contentReview, name FROM userReview");
+       $statement = $db->prepare("SELECT review, contentreview, name FROM userReview");
        $statement->execute();
       
        while ($row = $statement->fetch(PDO::FETCH_ASSOC))
        {
            $review = $row['review'];
-           $content = $row['contentReview'];
+           $content = $row['contentreview'];
            $name = $row['name'];
        
            echo "<p><strong>$name $review</strong> - \"$content\"<p>";
