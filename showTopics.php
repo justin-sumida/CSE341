@@ -28,9 +28,9 @@ try
 		echo '<br />';
 		echo 'Topics: ';
 
-		$stmtTopics = $db->prepare('SELECT name FROM topic t'
-			. ' INNER JOIN scripture_topic st ON st.topicId = t.id'
-			. ' WHERE st.scriptureId = :scriptureId');
+		$stmtTopics = $db->prepare('SELECT name FROM topics t'
+			. ' INNER JOIN scripture_topic st ON st.topic_id = t.id'
+			. ' WHERE st.scripture_id = :scriptureId');
 
 		$stmtTopics->bindValue(':scriptureId', $row['id']);
 		$stmtTopics->execute();
