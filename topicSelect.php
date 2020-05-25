@@ -10,14 +10,14 @@
     <title>Topic Select</title>
 </head>
 <body>
-    <h1>Enter a Scripture and it's Topic:</h1>
+    <h1>Enter a Scripture and its Topic:</h1>
     <form id="mainform" action="topicInsert.php" method="POST">
         Book <input type="text" name="book" id="book"><br>
         Chapter <input type="text" name="chapter" id="chapter"><br>
         Verse <input type="text" name="verse" id="verse"><br>
         Content<br>
         <textarea id="content" name="content" rows="4" cols="50"></textarea><br>
-        Topics:
+        Topics:<br>
 
         <?php
             try{
@@ -30,7 +30,7 @@
                     $name = $row['name'];
                     echo "<input type='checkbox' name='topics[]' id='topics$id' value='$id'>";
                     echo "<label for='topics$id'>$name</label><br />";
-                    echo '\n';
+                    echo "\n";
                 }
             }
             catch(PDOException $ex){
