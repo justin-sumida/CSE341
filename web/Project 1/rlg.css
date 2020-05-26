@@ -1,0 +1,17 @@
+.container {
+    position: relative;
+    text-align: right;
+    color: blue;
+  }
+  #textoverlay {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    font-size: larger;
+    margin-left: 70%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+#whatdowedo{
+    margin-right: 30%
+}
