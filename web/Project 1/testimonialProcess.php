@@ -23,3 +23,4 @@
     header("Location: testimonials.php");
 
     die();
+?>
