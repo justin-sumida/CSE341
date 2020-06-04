@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rlg.css">
+    <title>Gallery</title>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .row {
+          display: flex;
+          margin-top: 10px;
+        }
+        
+        
+        .column {
+          flex: 33.33%;
+          padding: 5px;
+        }
+        footer{
+            margin-top: 0;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <h1 class="Logo">The Recessed Light Guy</h1>
+       <ul>
+        <li><a class="active" href="rlg.html">Home</a></li>
+        <li><a href="testimonials.php">Testimonials</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.php">Contact</a></li>
+       </ul>
+    </header>
+    <hr>
+    <div class="wrapper">
+    <h2>Gallery</h2>
+    <h3>Take a moment to explore some of our work</h3>
+    <p>The Recessed Light Guy has had the privilege of working on thousands of lighting projects 
+        throughout Southern California. A few of these projects are profiled here in our project 
+        gallery.</p>
+        </div>
+    
+    <div class="row">
+        <div class="column"><img src="1.jpg"></div>
+        <div class="column"><img src="2.jpg"></div>
+        <div class="column"><img src="3.jpg"></div>
+    </div>
+    <div class ="row">
+        <div class="column"><img src="4.jpg"></div>
+        <div class="column"><img src="5.jpg"></div>
+        <div class="column"><img src="6.jpg"></div>
+    </div>
+    <footer>
+        <p id="copyright">Copyright © 2020 The Recessed Light Guy</p>
+    </footer>
+</body>
+</html>

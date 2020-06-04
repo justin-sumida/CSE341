@@ -1,17 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto&display=swap');
+/*font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif;*/
+
+h1{
+  font-family: 'Merriweather', serif;
+  color: white;
+  display: inline;
+}
+h2{
+  font-family: 'Merriweather', serif;
+}
+header, footer{
+  padding: 20px;
+  background-color: rgb(6, 78, 78);
+  margin: 0;
+}
+footer{
+  margin-top: 200px;
+  color: white;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+  margin: 10px;
+}
+
 .container {
     position: relative;
     text-align: right;
     color: blue;
   }
-  #textoverlay {
-    position: absolute;
-    top: 50px;
-    right: 30px;
-    font-size: larger;
-    margin-left: 70%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
 
-#whatdowedo{
-    margin-right: 30%
+#whatimg{
+  float: right;
+  height: 50%;
+  margin-left: 15px;
+  margin-bottom: 35px;
+}
+
+ul {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(6, 78, 78);
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(3, 48, 48);
 }

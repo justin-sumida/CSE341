@@ -7,13 +7,14 @@
     $db = get_db();
     try{
         $query = 'INSERT INTO userreview(review, contentReview, name) VALUES(:rating, :review, :name)';
+        $statement = $db->prepare($query);
         $statement->bindValue(':rating', $rating);
         $statement->bindValue(':review', $review);
         $statement->bindValue(':name', $name);
 
         $statement->execute();
 
-        $statement = $db->prepare($query);
+        
     }
     catch (Exception $ex)
     {
