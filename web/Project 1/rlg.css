@@ -83,6 +83,6 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
-input[type=submit]::hover{
+input[type=submit]:hover{
   background-color: rgb(22, 0, 82);
 }
