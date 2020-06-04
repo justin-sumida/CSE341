@@ -75,7 +75,7 @@ input[type=text], input[type=email], textarea {
 }
 input[type=submit] {
   width: 25%;
-  background-color: rgb(65, 65, 65)26);
+  background-color: rgb(65, 65, 65);
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
