@@ -15,10 +15,7 @@ header, footer{
   background-color: rgb(6, 78, 78);
   margin: 0;
 }
-footer{
-  margin-top: 200px;
-  color: white;
-}
+
 html, body {
   margin: 0;
   padding: 0;
