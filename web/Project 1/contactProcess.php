@@ -6,7 +6,7 @@
     require ("DbConnect.php");
     $db = get_db();
     try{
-        $query = 'INSERT INTO userreview(name, email, contact) VALUES(:name, :email, :contact)';
+        $query = 'INSERT INTO contact(name, email, contact) VALUES(:name, :email, :contact)';
         $statement = $db->prepare($query);
         $statement->bindValue(':name', $name);
         $statement->bindValue(':email', $email);
