@@ -75,7 +75,7 @@ input[type=text], input[type=email], textarea {
 }
 input[type=submit] {
   width: 25%;
-  background-color: rgb(112, 112, 112)26);
+  background-color: rgb(65, 65, 65)26);
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -84,5 +84,5 @@ input[type=submit] {
   cursor: pointer;
 }
 input[type=submit]:hover{
-  background-color: rgb(63, 63, 63);
+  background-color: rgb(49, 49, 49);
 }
