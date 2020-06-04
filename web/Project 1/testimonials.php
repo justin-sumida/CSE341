@@ -38,9 +38,9 @@
         ?>
         <h2>Leave us a Review:</h2>
         <form id="review" action="testimonialProcess.php" method="POST">
-            Name: <input type="text" name="name"><br>
-            Rating: <input type="number" min="1" max="5" name="rating" placeholder="1-5 inclusive"><br>
-            Review: <textarea name="review" rows="4" cols="50"></textarea><br>
+            Name:<br> <input type="text" name="name"><br>
+            Rating:<br> <input type="number" min="1" max="5" name="rating" placeholder="1-5 inclusive"><br>
+            Review:<br> <textarea name="review" rows="4" cols="50"></textarea><br>
             <input type="submit" value="Leave Review">
         </form>
     </div>

@@ -7,7 +7,7 @@
     <title>Contact Us</title>
 </head>
 <body>
-    <<header>
+    <header>
         <h1 class="Logo">The Recessed Light Guy</h1>
        <ul>
         <li><a class="active" href="rlg.html">Home</a></li>
@@ -18,11 +18,11 @@
     </header>
     <hr>
     <div class="wrapper">
-        <h1>Contact Us:</h1>
+        <h2>Contact Us:</h2>
 
         <form action="contactProcess.php" method="POST">
-            Name: <input type="text" name="name"><br>
-            Email: <input type="text" name="email"><br>
+            Name:<br> <input type="text" name="name"><br>
+            Email:<br> <input type="email" name="email"><br>
             Content:<br> <textarea name="contact" rows="4" cols="50"></textarea><br>
             <input type="submit" value="Send Message">
         </form>
