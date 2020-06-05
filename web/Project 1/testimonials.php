@@ -9,6 +9,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="rlg.css">
     <title>Testimonials</title>
+    <style>
+        .left{
+            float: left;
+        }
+        .right{
+            float: right;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -22,6 +30,7 @@
     </header>
     <hr>
     <div class="wrapper">
+    <div class="left">
         <h2>Testimonials from our clients</h2>
         <p> <?php
         $statement = $db->prepare("SELECT review, contentreview, name FROM userReview");
@@ -43,6 +52,10 @@
             Review:<br> <textarea name="review" rows="4" cols="50"></textarea><br>
             <input type="submit" value="Leave Review">
         </form>
+    </div>
+    <div class="right">
+        <img src="lightsvert.jpg">
+    </div>
     </div>
     <footer>
         <p id="copyright">Copyright © 2020 The Recessed Light Guy</p>

@@ -60,6 +60,7 @@
                    If you choose to fill out the form, we will review your information and 
                    call you back to discuss your lighting issue and offer to provide an onsite
                    estimate for the work.</p>
+                   <img src="lightshoriz.jpg">
             </div>
             <div class="column">
                 <form action="contactProcess.php" method="POST">
