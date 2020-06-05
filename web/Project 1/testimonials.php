@@ -17,7 +17,7 @@
             float: right;
         }
         footer{
-            margin-top: 250px;
+            margin-top: 45%;
         }
     </style>
 </head>
