@@ -16,6 +16,9 @@
         .right{
             float: right;
         }
+        footer{
+            margin-top: 250px;
+        }
     </style>
 </head>
 <body>
